@@ -21,4 +21,5 @@ class Animal:
     # Example output
     # Kingdom: 'kingdom attribute', Name: 'name attribute' Species: 'species attribute' 
     def __str__(self):
-        return f"Kingdom: {Animal.kingdom}, Name: {self.name}, Species: {self.species}"
+        return f"Kingdom: 'Animalia', Name: '{self.name}', Species: '{self.species}'"
+    
