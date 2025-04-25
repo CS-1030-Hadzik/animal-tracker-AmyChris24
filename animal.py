@@ -1,11 +1,14 @@
+ # TODO create a class-level attribute that is a list of all the Animal objects
+
+all_animals = []
+    # Class-level attribute
+kingdom = "Animalia"
+
 class Animal:
     """
     Base class representing a generic animal.
     """
-    # Class-level attribute
-    kingdom = "Animalia"
-    # TODO create a class-level attribute that is a list of all the Animal objects
-    all_animals = []
+
     # TODO create the initializer for Animal with name and species as attributs
     def __init__(self, name, species):
         self.name = name
